@@ -1,0 +1,424 @@
+[
+  {
+    "categoryId": "vegetables_and_fruit",
+    "title": "Apples",
+    "id": "apple",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 300 g, quartered",
+        "instruction": "2 – 3 sec./speed 4,5",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 2,
+            "speed": { "value": "4.5" },
+            "prompt": {
+              "before": "2 – 3 sec./speed 4,5",
+              "inProgress": "2 – 3 sec./speed 4,5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "",
+        "amount": "350 – 600 g, quartered",
+        "instruction": "3 – 4 sec./speed 4,5",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 3,
+            "speed": { "value": "4.5" },
+            "prompt": {
+              "before": "3 – 4 sec./speed 4,5",
+              "inProgress": "3 – 4 sec./speed 4,5"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "vegetables_and_fruit",
+    "title": "Potatoes And Sweet Potatoes",
+    "id": "potato",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "The duration depends on the type of potato variety",
+        "amount": "200 – 500 g, in pieces",
+        "instruction": "4 – 7 sec./speed 5",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 4,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "4 – 7 sec./speed 5",
+              "inProgress": "4 – 7 sec./speed 5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "The duration depends on the type of potato variety",
+        "amount": "600 – 800 g, in pieces",
+        "instruction": "5 – 10 sec./speed 5",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 5,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "5 – 10 sec./speed 5",
+              "inProgress": "5 – 10 sec./speed 5"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "meat_and_poultry",
+    "title": "Beef",
+    "id": "beef",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "For a consistent result, cut the meat into equal pieces.\r\nYou will get the best result if the meat is frozen for 60 minutes in the freezer.",
+        "amount": "300 g, in pieces (3 cm), frozen",
+        "instruction": "10 – 13 sec./speed 8",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 10,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "10 – 13 sec./speed 8",
+              "inProgress": "10 – 13 sec./speed 8"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "For a consistent result, cut the meat into equal pieces.\r\nYou will get the best result if the meat is frozen for 60 minutes in the freezer.",
+        "amount": "500 g, in pieces (3 cm), frozen",
+        "instruction": "13 – 16 sec./speed 8",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 13,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "13 – 16 sec./speed 8",
+              "inProgress": "13 – 16 sec./speed 8"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "other",
+    "title": "Poppy",
+    "id": "poppy_seed",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 250 g",
+        "instruction": "30 sec./speed 9",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 30,
+            "speed": { "value": "9" },
+            "prompt": {
+              "before": "30 sec./speed 9",
+              "inProgress": "30 sec./speed 9"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "other",
+    "title": "Rice",
+    "id": "rice",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 150 g",
+        "instruction": "1 – 1 Min. 30 Sec./ Speed 10",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 1,
+            "speed": { "value": "10" },
+            "prompt": {
+              "before": "1 – 1 Min. 30 Sec./ Speed 10",
+              "inProgress": "1 – 1 Min. 30 Sec./ Speed 10"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "other",
+    "title": "Breadroll",
+    "id": "breadroll",
+    "image":"main_breadcrumbs.png",
+    "options": [
+      {
+        "title": "Titel and amount",
+        "hint": "You can use any kind of bread.\r\n_x0007_You can add herbs or garlic to the bread before chopping. \r\nBreadcrumbs made from fresh bread must be stored in the freezer",
+        "amount": "100 g fresh, in pieces (3 cm)",
+        "instruction": "3 – 10 sec./speed 6",
+        "image":"detail_breadcrumbs_option_1.jpg",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 3,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "3 – 10 sec./speed 6",
+              "inProgress": "3 – 10 sec./speed 6"
+            }
+          }
+        }
+      },
+      {
+        "title": "Only titel",
+        "hint": "",
+        "amount": "",
+        "instruction": "13 – 16 sec./speed 4,5",
+        "image":"detail_breadcrumbs_option_2.jpg",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 13,
+            "speed": { "value": "4.5" },
+            "prompt": {
+              "before": "13 – 16 sec./speed 4,5",
+              "inProgress": "13 – 16 sec./speed 4,5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "amount": "Only Amount",
+        "instruction": "10 – 13 sec./speed 8",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 10,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "10 – 13 sec./speed 8",
+              "inProgress": "10 – 13 sec./speed 8"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "meat_and_poultry",
+    "title": "Pork",
+    "id": "pork",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "For a consistent result, cut the meat into equal pieces.\r\nYou will get the best result if the meat is frozen for 60 minutes in the freezer.",
+        "amount": "300 g, in pieces (3 cm), frozen",
+        "instruction": "8 – 10 sec./speed 6",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 8,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "8 – 10 sec./speed 6",
+              "inProgress": "8 – 10 sec./speed 6"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "For a consistent result, cut the meat into equal pieces.\r\nYou will get the best result if the meat is frozen for 60 minutes in the freezer.",
+        "amount": "500 g, in pieces (3 cm), frozen",
+        "instruction": "12 – 14 sec./speed 6",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 12,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "12 – 14 sec./speed 6",
+              "inProgress": "12 – 14 sec./speed 6"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "meat_and_poultry",
+    "title": "Poultry",
+    "id": "poultry",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "For a consistent result, cut the meat into equal pieces.\r\nYou will get the best result if the meat is frozen for 60 minutes in the freezer.",
+        "amount": "300 g, in pieces (3 cm), frozen",
+        "instruction": "5 – 6 sec./speed 6",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 5,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "5 – 6 sec./speed 6",
+              "inProgress": "5 – 6 sec./speed 6"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "For a consistent result, cut the meat into equal pieces.\r\nYou will get the best result if the meat is frozen for 60 minutes in the freezer.",
+        "amount": "500 g, in pieces (3 cm), frozen",
+        "instruction": "7 – 8 sec./speed 6",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 7,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "7 – 8 sec./speed 6",
+              "inProgress": "7 – 8 sec./speed 6"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "meat_and_poultry",
+    "title": "Lamb",
+    "id": "lamb",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "For a consistent result, cut the meat into equal pieces.\r\nYou will get the best result if the meat is frozen for 60 minutes in the freezer.",
+        "amount": "300 g, frei von Sehnen, in pieces (2–3 cm), angefroren",
+        "instruction": "10 – 13 sec./speed 8",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 10,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "10 – 13 sec./speed 8",
+              "inProgress": "10 – 13 sec./speed 8"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "vegetables_and_fruit",
+    "title": "Carrots And Beets",
+    "id": "carrots_beets",
+    "image":"",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 180 g, in pieces (4 cm)",
+        "instruction": "3 – 4 sec./speed 5",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 3,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "3 – 4 sec./speed 5",
+              "inProgress": "3 – 4 sec./speed 5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "",
+        "amount": "200 – 450 g, in pieces (4 cm)",
+        "instruction": "4 – 6 sec./speed 5",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 4,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "4 – 6 sec./speed 5",
+              "inProgress": "4 – 6 sec./speed 5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "",
+        "amount": "500 – 700 g, in pieces (4 cm)",
+        "instruction": "5 – 7 sec./speed 5",
+        "image":"",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 5,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "5 – 7 sec./speed 5",
+              "inProgress": "5 – 7 sec./speed 5"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

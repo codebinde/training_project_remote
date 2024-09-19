@@ -1,0 +1,54 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    margin-top: unset;
+    margin-bottom: unset;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color:blue;
+}
+
+.mydiv {
+    position: relative;
+    color: blue;
+    left: 30px;
+    font-size: 40px;
+}
+
+button {
+    background-color: #02A861; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+td {
+    width: 612px;
+    height: 47px;
+    position: relative;
+    color: blue;
+    left: 30px;
+    font-size: 40px;
+}
+
+input[type=password],
+input[type=search],
+input[type=text] {
+    appearance: none; /* Remove default WebKit appearance. WebKit browsers by default have rounded corners and are very strict in what you can alter via CSS */
+    width: 255px;
+    height: 31px;
+    font-size: 22px;
+}
+
+input[type=search]:focus {
+  outline: rgb(92,157,234) solid 2px;
+}

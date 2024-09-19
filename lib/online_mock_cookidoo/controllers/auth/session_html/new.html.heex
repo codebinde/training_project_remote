@@ -1,0 +1,24 @@
+<h1>Login</h1>
+<.form :let={f} for={%{}} action={~p"/auth/sessions"} as={:session}>
+  <div class="form-group">
+    <input
+      type="text"
+      name={f[:username].name}
+      id={f[:username].id}
+      value={f[:username].value}
+      placeholder="Username"
+      class="form-control"
+    />
+  </div>
+  <div class="form-group">
+    <input
+      type="text"
+      name={f[:password].name}
+      id={f[:password].id}
+      value={f[:password].value}
+      placeholder="Password"
+      class="form-control"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary">Log in</button>
+</.form>

@@ -1,0 +1,395 @@
+[
+  {
+    "categoryId": "gemuese_und_obst",
+    "title": "Äpfel",
+    "id": "apple",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 300 g, geviertelt",
+        "instruction": "2 – 3 Sek./Stufe 4,5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 2,
+            "speed": { "value": "4.5" },
+            "prompt": {
+              "before": "2 – 3 Sek./Stufe 4,5",
+              "inProgress": "2 – 3 Sek./Stufe 4,5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "",
+        "amount": "350 – 600 g, geviertelt",
+        "instruction": "3 – 4 Sek./Stufe 4,5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 3,
+            "speed": { "value": "4.5" },
+            "prompt": {
+              "before": "3 – 4 Sek./Stufe 4,5",
+              "inProgress": "3 – 4 Sek./Stufe 4,5"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "gemuese_und_obst",
+    "title": "Kartoffeln und Süßkartoffeln",
+    "id": "potato",
+    "options": [
+      {
+        "title": "",
+        "hint": "Die Dauer hängt von der Art der Kartoffelsorte ab",
+        "amount": "200 – 500 g, in Stücken",
+        "instruction": "4 – 7 Sek./Stufe 5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 4,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "4 – 7 Sek./Stufe 5",
+              "inProgress": "4 – 7 Sek./Stufe 5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "Die Dauer hängt von der Art der Kartoffelsorte ab",
+        "amount": "600 – 800 g, in Stücken",
+        "instruction": "5 – 10 Sek./Stufe 5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 5,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "5 – 10 Sek./Stufe 5",
+              "inProgress": "5 – 10 Sek./Stufe 5"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "fleisch_und_gefluegel",
+    "title": "Rind",
+    "id": "beef",
+    "options": [
+      {
+        "title": "",
+        "hint": "Schneide das Fleisch für ein gleichmäßiges Ergebnis in gleiche Stücke.\r\nDas beste Ergebnis erhältst du, wenn das Fleisch 60 Minuten lang im Gefrierschrank eingefroren wird.",
+        "amount": "300 g, in Stücken (3 cm), gefroren",
+        "instruction": "10 – 13 Sek./Stufe 8",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 10,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "10 – 13 Sek./Stufe 8",
+              "inProgress": "10 – 13 Sek./Stufe 8"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "Schneide das Fleisch für ein gleichmäßiges Ergebnis in gleiche Stücke.\r\nDas beste Ergebnis erhältst du, wenn das Fleisch 60 Minuten lang im Gefrierschrank eingefroren wird.",
+        "amount": "500 g, in Stücken (3 cm), frozen",
+        "instruction": "13 – 16 Sek./Stufe 8",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 13,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "13 – 16 Sek./Stufe 8",
+              "inProgress": "13 – 16 Sek./Stufe 8"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "sonstiges",
+    "title": "Mohn",
+    "id": "poppy_seed",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 250 g",
+        "instruction": "30 Sek./Stufe 9",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 30,
+            "speed": { "value": "9" },
+            "prompt": {
+              "before": "30 Sek./Stufe 9",
+              "inProgress": "30 Sek./Stufe 9"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "sonstiges",
+    "title": "Reis",
+    "id": "rice",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 150 g",
+        "instruction": "1 – 1 Min. 30 Sek./Stufe 10",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 1,
+            "speed": { "value": "10" },
+            "prompt": {
+              "before": "1 – 1 Min. 30 Sek./Stufe 10",
+              "inProgress": "1 – 1 Min. 30 Sek./Stufe 10"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "sonstiges",
+    "title": "Sämmelbrösel",
+    "id": "breadroll",
+    "options": [
+      {
+        "title": "Titel and amount",
+        "hint": "Sie können jede Art von Brot verwenden.\r\n_x0007_Sie können dem Brot vor dem Hacken Kräuter oder Knoblauch hinzufügen. \r\nSemmelbrösel aus frischem Brot müssen im Gefrierschrank aufbewahrt werden",
+        "amount": "100 g fresh, in Stücken (3 cm)",
+        "instruction": "3 – 10 Sek./Stufe 6",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 3,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "3 – 10 Sek./Stufe 6",
+              "inProgress": "3 – 10 Sek./Stufe 6"
+            }
+          }
+        }
+      },
+      {
+        "title": "Only titel",
+        "hint": "Sie können jede Art von Brot verwenden.\r\n_x0007_Sie können dem Brot vor dem Hacken Kräuter oder Knoblauch hinzufügen. \r\nSemmelbrösel aus frischem Brot müssen im Gefrierschrank aufbewahrt werden",
+        "amount": "",
+        "instruction": "13 – 16 Sek./Stufe 4,5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 13,
+            "speed": { "value": "4.5" },
+            "prompt": {
+              "before": "13 – 16 Sek./Stufe 4,5",
+              "inProgress": "13 – 16 Sek./Stufe 4,5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "Sie können jede Art von Brot verwenden.\r\n_x0007_Sie können dem Brot vor dem Hacken Kräuter oder Knoblauch hinzufügen. \r\nSemmelbrösel aus frischem Brot müssen im Gefrierschrank aufbewahrt werden",
+        "amount": "Only Amount",
+        "instruction": "10 – 13 Sek./Stufe 8",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 10,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "10 – 13 Sek./Stufe 8",
+              "inProgress": "10 – 13 Sek./Stufe 8"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "fleisch_und_gefluegel",
+    "title": "Schwein",
+    "id": "pork",
+    "options": [
+      {
+        "title": "",
+        "hint": "Schneide das Fleisch für ein gleichmäßiges Ergebnis in gleiche Stücke.\r\nDas beste Ergebnis erhältst du, wenn das Fleisch 60 Minuten lang im Gefrierschrank eingefroren wird.",
+        "amount": "300 g, in Stücken (3 cm), gefroren",
+        "instruction": "8 – 10 Sek./Stufe 6",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 8,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "8 – 10 Sek./Stufe 6",
+              "inProgress": "8 – 10 Sek./Stufe 6"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "Schneide das Fleisch für ein gleichmäßiges Ergebnis in gleiche Stücke.\r\nDas beste Ergebnis erhältst du, wenn das Fleisch 60 Minuten lang im Gefrierschrank eingefroren wird.",
+        "amount": "500 g, in Stücken (3 cm), frozen",
+        "instruction": "12 – 14 Sek./Stufe 6",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 12,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "12 – 14 Sek./Stufe 6",
+              "inProgress": "12 – 14 Sek./Stufe 6"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "fleisch_und_gefluegel",
+    "title": "Geflügel",
+    "id": "poultry",
+    "options": [
+      {
+        "title": "",
+        "hint": "Schneide das Fleisch für ein gleichmäßiges Ergebnis in gleiche Stücke.\r\nDas beste Ergebnis erhältst du, wenn das Fleisch 60 Minuten lang im Gefrierschrank eingefroren wird.",
+        "amount": "300 g, in Stücken (3 cm), gefroren",
+        "instruction": "5 – 6 Sek./Stufe 6",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 5,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "5 – 6 Sek./Stufe 6",
+              "inProgress": "5 – 6 Sek./Stufe 6"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "Schneide das Fleisch für ein gleichmäßiges Ergebnis in gleiche Stücke.\r\nDas beste Ergebnis erhältst du, wenn das Fleisch 60 Minuten lang im Gefrierschrank eingefroren wird.",
+        "amount": "500 g, in Stücken (3 cm), frozen",
+        "instruction": "7 – 8 Sek./Stufe 6",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 7,
+            "speed": { "value": "6" },
+            "prompt": {
+              "before": "7 – 8 Sek./Stufe 6",
+              "inProgress": "7 – 8 Sek./Stufe 6"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "fleisch_und_gefluegel",
+    "title": "Lamm",
+    "id": "lamb",
+    "options": [
+      {
+        "title": "",
+        "hint": "Schneide das Fleisch für ein gleichmäßiges Ergebnis in gleiche Stücke.\r\nDas beste Ergebnis erhältst du, wenn das Fleisch 60 Minuten lang im Gefrierschrank eingefroren wird.",
+        "amount": "300 g, frei von Sehnen, in Stücken (2–3 cm), angefroren",
+        "instruction": "10 – 13 Sek./Stufe 8",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 10,
+            "speed": { "value": "8" },
+            "prompt": {
+              "before": "10 – 13 Sek./Stufe 8",
+              "inProgress": "10 – 13 Sek./Stufe 8"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "categoryId": "gemuese_und_obst",
+    "title": "Karotten und Rüben",
+    "id": "carrots_beets",
+    "options": [
+      {
+        "title": "",
+        "hint": "",
+        "amount": "100 – 180 g, in Stücken (4 cm)",
+        "instruction": "3 – 4 Sek./Stufe 5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 3,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "3 – 4 Sek./Stufe 5",
+              "inProgress": "3 – 4 Sek./Stufe 5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "",
+        "amount": "200 – 450 g, in Stücken (4 cm)",
+        "instruction": "4 – 6 Sek./Stufe 5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 4,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "4 – 6 Sek./Stufe 5",
+              "inProgress": "4 – 6 Sek./Stufe 5"
+            }
+          }
+        }
+      },
+      {
+        "title": "",
+        "hint": "",
+        "amount": "500 – 700 g, in Stücken (4 cm)",
+        "instruction": "5 – 7 Sek./Stufe 5",
+        "mode": {
+          "type": "tts",
+          "details": {
+            "time": 5,
+            "speed": { "value": "5" },
+            "prompt": {
+              "before": "5 – 7 Sek./Stufe 5",
+              "inProgress": "5 – 7 Sek./Stufe 5"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

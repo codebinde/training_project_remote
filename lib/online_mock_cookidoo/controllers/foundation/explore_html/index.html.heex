@@ -1,0 +1,33 @@
+<h1>
+  EXPLORE &nbsp;&nbsp;&nbsp;&nbsp;<img src={
+    static_url(OnlineMockCloud.Endpoint, "/images/t_d72x72/generic_image.jpg")
+  } />
+</h1>
+<div class="mydiv">
+  <ul>
+    <li>
+      <a href={"com.vorwerk.cookidoo://video?src=" <> static_url(OnlineMockCloud.Endpoint, "/stream/singleSegmentStream/singleSegmentStream.mpd")}>
+        Video Stream
+      </a>
+    </li>
+    <li><a href="com.vorwerk.cookidoo://navigation/search?query=dummy">Search</a></li>
+    <li><a href="data_usage.html">Data Usage</a></li>
+    <li><a href="privacy_policy.html">Privacy Policy</a></li>
+    <li><a href="explore.html">Explore</a></li>
+    <li>
+      <a href={"com.vorwerk.cookidoo://navigation/weblink?url=" <> url(~p"/planning/planner")}>
+        Planner
+      </a>
+    </li>
+    <li>
+      <a href={"cookidoo://web-content/dialog?url=" <> url(~p"/foundation/browse-app")}>
+        Web Content With Dialog
+      </a>
+    </li>
+    <li>
+      <a href={"cookidoo://web-content/navigatable?url=" <> url(~p"/foundation/browse-app")}>
+        Web Content Navigatable
+      </a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,19 @@
+<h1><%= @recipe %></h1>
+<button onclick="COOKIDOO.device.back()">Quit</button>
+<%= for recipe_step <- @recipe_steps do %>
+<button onclick='dialogfunctions(
+            "<%= recipe_step["dialogFunction"] %>",
+            <%= if recipe_step["settings"] == nil do %>
+                {}
+            <% else %>
+                <%= raw recipe_step["settings"] |> Jason.encode! %>
+            <% end %>,
+            <%= if recipe_step["pid"] == nil do %>
+                <%= recipe_step["stepTitle"] |> Jason.encode! %>
+            <% else %>
+                <%= recipe_step["pid"] |> Jason.encode! %>
+            <% end %>
+        )'>
+    <%= recipe_step["stepTitle"] %>
+</button>
+<% end %>
