@@ -1,0 +1,13 @@
+{application,remote_library,
+             [{applications,[kernel,stdlib,elixir,logger,plug_cowboy,xmlrpc,
+                             earmark]},
+              {description,"remote_library"},
+              {modules,['Elixir.RemoteLibrary','Elixir.RemoteLibrary.Agent',
+                        'Elixir.RemoteLibrary.Application',
+                        'Elixir.RemoteLibrary.Caller',
+                        'Elixir.RemoteLibrary.Keyword',
+                        'Elixir.RemoteLibrary.Parser',
+                        'Elixir.RemoteLibrary.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.RemoteLibrary.Application',[]}}]}.

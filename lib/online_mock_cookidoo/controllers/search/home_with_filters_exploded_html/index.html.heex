@@ -1,0 +1,56 @@
+<h1>SEARCH</h1>
+<div class="mydiv">
+  <ul>
+    <li>
+      <a href="com.vorwerk.cookidoo://navigation/search?query=dummy">Search</a>
+    </li>
+    <li>
+      <a href={url(~p"/search/search-results?query=Minestrone")}>
+        Search With Query Minestrone
+      </a>
+    </li>
+    <li>
+      <a href="data_usage.html">Data Usage</a>
+    </li>
+    <li>
+      <a href="privacy_policy.html">Privacy Policy</a>
+    </li>
+    <li>
+      <a href="explore.html">Explore</a>
+    </li>
+    <li>
+      <a href="planner.html">Planner</a>
+    </li>
+    <li>
+      <a href="com.vorwerk.cookidoo://webError">Simulate Online Search Error</a>
+    </li>
+  </ul>
+  <form>
+    <input
+      type="search"
+      maxlength="13"
+      size="13"
+      style="position:absolute;left:800px;top:25px;font-size:12px;height:20px;width:114px"
+    />
+    <button
+      type="button"
+      name="clear"
+      onclick="clearEventBox()"
+      style="position:absolute;left:800px;top:70px;font-size:12px"
+    >
+      Clear
+    </button>
+    <div id="eventbox"></div>
+  </form>
+  <script>
+    var b = document.querySelector('input');
+    var ev = document.querySelector('#eventbox');
+    function clearEventBox() {
+      ev.innerHTML = "";
+    }
+    ev.setAttribute("style","color:black;position:absolute;left:800px;top:120px;font-size:12px");
+    b.addEventListener("keydown", function (e) { ev.innerHTML += " keydown"; });
+    b.addEventListener("keypress", function (e) { ev.innerHTML += " keypress"; });
+    b.addEventListener("keyup", function (e) { ev.innerHTML += " keyup<br>"; });
+  </script>
+</div>

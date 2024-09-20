@@ -1,0 +1,24 @@
+<h1>CUSTOMER RECIPES</h1>
+<div class="mydiv">
+  <ul>
+    <li :for={recipe <- @recipes}>
+      <a href={"cookidoo://browse/recipe?url=" <> url(~p"/customer-recipes/recipes-list/#{recipe}")}>
+        <%= recipe %>
+      </a>
+    </li>
+    <li>
+      <a href="http://10.233.50.11/qa_test_results/">HTTP Website</a>
+    </li>
+  </ul>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Text Line</p>

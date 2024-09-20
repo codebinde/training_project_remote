@@ -1,0 +1,13 @@
+{application,pki,
+             [{applications,[kernel,stdlib,elixir,logger,crypto,public_key]},
+              {description,"pki"},
+              {modules,['Elixir.ASN1','Elixir.ASN1.PublicKey',
+                        'Elixir.Mix.Tasks.Pki.Cert.New','Elixir.PKI',
+                        'Elixir.PKI.CMS','Elixir.PKI.Cert',
+                        'Elixir.PKI.Cert.Extension',
+                        'Elixir.PKI.Cert.Extension.Private',
+                        'Elixir.PKI.Cert.Extension.Standard',
+                        'Elixir.PKI.Cert.Name','Elixir.PKI.Key',
+                        'Elixir.PKI.OCSP']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.

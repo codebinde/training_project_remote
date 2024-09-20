@@ -1,0 +1,20 @@
+[
+    {
+        "categoryId": "gemuese_und_obst",
+        "title": "Gemüse & Obst",
+        "primaryColor": "#FDECD6",
+        "secondaryColor": "#FCE4C6"
+    },
+    {
+        "categoryId": "fleisch_und_gefluegel",
+        "title": "Fleisch & Geflügel",
+        "primaryColor": "#F8D4D5",
+        "secondaryColor": "#F5C2C3"
+    },
+    {
+        "categoryId": "sonstiges",
+        "title": "Sonstiges",
+        "primaryColor": "#E3DDD9",
+        "secondaryColor": "#DAD3CD"
+    }
+]

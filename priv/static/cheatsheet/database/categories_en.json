@@ -1,0 +1,20 @@
+[
+    {
+        "categoryId": "vegetables_and_fruit",
+        "title": "Vegetables & Fruit",
+        "primaryColor": "#FDECD6",
+        "secondaryColor": "#FCE4C6"
+    },
+    {
+        "categoryId": "meat_and_poultry",
+        "title": "Meat & Poultry",
+        "primaryColor": "#F8D4D5",
+        "secondaryColor": "#F5C2C3"
+    },
+    {
+        "categoryId": "other",
+        "title": "Other",
+        "primaryColor": "#E3DDD9",
+        "secondaryColor": "#DAD3CD"
+    }
+]

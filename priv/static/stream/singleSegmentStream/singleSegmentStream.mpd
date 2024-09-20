@@ -1,0 +1,150 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" minBufferTime="PT1.500S" type="static" mediaPresentationDuration="PT0H1M0.000S" maxSegmentDuration="PT0H0M2.000S" profiles="urn:mpeg:dash:profile:full:2011">
+  <Period duration="PT0H1M0.000S">
+    <AdaptationSet segmentAlignment="true" maxWidth="1024" maxHeight="600" maxFrameRate="25" par="512:300" lang="und">
+      <Representation id="1" mimeType="video/mp4" codecs="avc1.4D401E" width="512" height="300" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="42815">
+        <BaseURL>Simple-Test-Video_600k.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-907" />
+          <SegmentURL mediaRange="908-11950" indexRange="908-951" />
+          <SegmentURL mediaRange="11951-22724" indexRange="11951-11994" />
+          <SegmentURL mediaRange="22725-33435" indexRange="22725-22768" />
+          <SegmentURL mediaRange="33436-44059" indexRange="33436-33479" />
+          <SegmentURL mediaRange="44060-54764" indexRange="44060-44103" />
+          <SegmentURL mediaRange="54765-65590" indexRange="54765-54808" />
+          <SegmentURL mediaRange="65591-76117" indexRange="65591-65634" />
+          <SegmentURL mediaRange="76118-86885" indexRange="76118-76161" />
+          <SegmentURL mediaRange="86886-97323" indexRange="86886-86929" />
+          <SegmentURL mediaRange="97324-107913" indexRange="97324-97367" />
+          <SegmentURL mediaRange="107914-118610" indexRange="107914-107957" />
+          <SegmentURL mediaRange="118611-129367" indexRange="118611-118654" />
+          <SegmentURL mediaRange="129368-139937" indexRange="129368-129411" />
+          <SegmentURL mediaRange="139938-150650" indexRange="139938-139981" />
+          <SegmentURL mediaRange="150651-161338" indexRange="150651-150694" />
+          <SegmentURL mediaRange="161339-172098" indexRange="161339-161382" />
+          <SegmentURL mediaRange="172099-182665" indexRange="172099-172142" />
+          <SegmentURL mediaRange="182666-193305" indexRange="182666-182709" />
+          <SegmentURL mediaRange="193306-203927" indexRange="193306-193349" />
+          <SegmentURL mediaRange="203928-214619" indexRange="203928-203971" />
+          <SegmentURL mediaRange="214620-225263" indexRange="214620-214663" />
+          <SegmentURL mediaRange="225264-235803" indexRange="225264-225307" />
+          <SegmentURL mediaRange="235804-246476" indexRange="235804-235847" />
+          <SegmentURL mediaRange="246477-257165" indexRange="246477-246520" />
+          <SegmentURL mediaRange="257166-267764" indexRange="257166-257209" />
+          <SegmentURL mediaRange="267765-278285" indexRange="267765-267808" />
+          <SegmentURL mediaRange="278286-288988" indexRange="278286-278329" />
+          <SegmentURL mediaRange="288989-299640" indexRange="288989-289032" />
+          <SegmentURL mediaRange="299641-310366" indexRange="299641-299684" />
+          <SegmentURL mediaRange="310367-321114" indexRange="310367-310410" />
+        </SegmentList>
+      </Representation>
+      <Representation id="2" mimeType="video/mp4" codecs="avc1.4D401E" width="1024" height="600" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="82698">
+        <BaseURL>Simple-Test-Video_1000k.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-908" />
+          <SegmentURL mediaRange="909-21914" indexRange="909-952" />
+          <SegmentURL mediaRange="21915-42429" indexRange="21915-21958" />
+          <SegmentURL mediaRange="42430-62787" indexRange="42430-42473" />
+          <SegmentURL mediaRange="62788-83248" indexRange="62788-62831" />
+          <SegmentURL mediaRange="83249-103319" indexRange="83249-83292" />
+          <SegmentURL mediaRange="103320-123938" indexRange="103320-103363" />
+          <SegmentURL mediaRange="123939-144260" indexRange="123939-123982" />
+          <SegmentURL mediaRange="144261-164647" indexRange="144261-144304" />
+          <SegmentURL mediaRange="164648-185582" indexRange="164648-164691" />
+          <SegmentURL mediaRange="185583-205891" indexRange="185583-185626" />
+          <SegmentURL mediaRange="205892-226568" indexRange="205892-205935" />
+          <SegmentURL mediaRange="226569-247375" indexRange="226569-226612" />
+          <SegmentURL mediaRange="247376-267894" indexRange="247376-247419" />
+          <SegmentURL mediaRange="267895-288914" indexRange="267895-267938" />
+          <SegmentURL mediaRange="288915-309573" indexRange="288915-288958" />
+          <SegmentURL mediaRange="309574-330419" indexRange="309574-309617" />
+          <SegmentURL mediaRange="330420-350912" indexRange="330420-330463" />
+          <SegmentURL mediaRange="350913-371796" indexRange="350913-350956" />
+          <SegmentURL mediaRange="371797-392412" indexRange="371797-371840" />
+          <SegmentURL mediaRange="392413-412991" indexRange="392413-392456" />
+          <SegmentURL mediaRange="412992-433601" indexRange="412992-413035" />
+          <SegmentURL mediaRange="433602-454410" indexRange="433602-433645" />
+          <SegmentURL mediaRange="454411-475166" indexRange="454411-454454" />
+          <SegmentURL mediaRange="475167-496227" indexRange="475167-475210" />
+          <SegmentURL mediaRange="496228-516632" indexRange="496228-496271" />
+          <SegmentURL mediaRange="516633-537322" indexRange="516633-516676" />
+          <SegmentURL mediaRange="537323-557951" indexRange="537323-537366" />
+          <SegmentURL mediaRange="557952-578733" indexRange="557952-557995" />
+          <SegmentURL mediaRange="578734-599414" indexRange="578734-578777" />
+          <SegmentURL mediaRange="599415-620237" indexRange="599415-599458" />
+        </SegmentList>
+      </Representation>
+      <Representation id="3" mimeType="video/mp4" codecs="avc1.4D401E" width="1024" height="600" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="82698">
+        <BaseURL>Simple-Test-Video_2000K.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-908" />
+          <SegmentURL mediaRange="909-21914" indexRange="909-952" />
+          <SegmentURL mediaRange="21915-42429" indexRange="21915-21958" />
+          <SegmentURL mediaRange="42430-62787" indexRange="42430-42473" />
+          <SegmentURL mediaRange="62788-83248" indexRange="62788-62831" />
+          <SegmentURL mediaRange="83249-103319" indexRange="83249-83292" />
+          <SegmentURL mediaRange="103320-123938" indexRange="103320-103363" />
+          <SegmentURL mediaRange="123939-144260" indexRange="123939-123982" />
+          <SegmentURL mediaRange="144261-164647" indexRange="144261-144304" />
+          <SegmentURL mediaRange="164648-185582" indexRange="164648-164691" />
+          <SegmentURL mediaRange="185583-205891" indexRange="185583-185626" />
+          <SegmentURL mediaRange="205892-226568" indexRange="205892-205935" />
+          <SegmentURL mediaRange="226569-247375" indexRange="226569-226612" />
+          <SegmentURL mediaRange="247376-267894" indexRange="247376-247419" />
+          <SegmentURL mediaRange="267895-288914" indexRange="267895-267938" />
+          <SegmentURL mediaRange="288915-309573" indexRange="288915-288958" />
+          <SegmentURL mediaRange="309574-330419" indexRange="309574-309617" />
+          <SegmentURL mediaRange="330420-350912" indexRange="330420-330463" />
+          <SegmentURL mediaRange="350913-371796" indexRange="350913-350956" />
+          <SegmentURL mediaRange="371797-392412" indexRange="371797-371840" />
+          <SegmentURL mediaRange="392413-412991" indexRange="392413-392456" />
+          <SegmentURL mediaRange="412992-433601" indexRange="412992-413035" />
+          <SegmentURL mediaRange="433602-454410" indexRange="433602-433645" />
+          <SegmentURL mediaRange="454411-475166" indexRange="454411-454454" />
+          <SegmentURL mediaRange="475167-496227" indexRange="475167-475210" />
+          <SegmentURL mediaRange="496228-516632" indexRange="496228-496271" />
+          <SegmentURL mediaRange="516633-537322" indexRange="516633-516676" />
+          <SegmentURL mediaRange="537323-557951" indexRange="537323-537366" />
+          <SegmentURL mediaRange="557952-578733" indexRange="557952-557995" />
+          <SegmentURL mediaRange="578734-599414" indexRange="578734-578777" />
+          <SegmentURL mediaRange="599415-620237" indexRange="599415-599458" />
+        </SegmentList>
+      </Representation>
+      <Representation id="4" mimeType="video/mp4" codecs="avc1.4D401E" width="1024" height="600" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="82698">
+        <BaseURL>Simple-Test-Video_4000k.mp4dv</BaseURL>
+        <SegmentList timescale="12800" duration="25600">
+          <Initialization range="0-908" />
+          <SegmentURL mediaRange="909-21914" indexRange="909-952" />
+          <SegmentURL mediaRange="21915-42429" indexRange="21915-21958" />
+          <SegmentURL mediaRange="42430-62787" indexRange="42430-42473" />
+          <SegmentURL mediaRange="62788-83248" indexRange="62788-62831" />
+          <SegmentURL mediaRange="83249-103319" indexRange="83249-83292" />
+          <SegmentURL mediaRange="103320-123938" indexRange="103320-103363" />
+          <SegmentURL mediaRange="123939-144260" indexRange="123939-123982" />
+          <SegmentURL mediaRange="144261-164647" indexRange="144261-144304" />
+          <SegmentURL mediaRange="164648-185582" indexRange="164648-164691" />
+          <SegmentURL mediaRange="185583-205891" indexRange="185583-185626" />
+          <SegmentURL mediaRange="205892-226568" indexRange="205892-205935" />
+          <SegmentURL mediaRange="226569-247375" indexRange="226569-226612" />
+          <SegmentURL mediaRange="247376-267894" indexRange="247376-247419" />
+          <SegmentURL mediaRange="267895-288914" indexRange="267895-267938" />
+          <SegmentURL mediaRange="288915-309573" indexRange="288915-288958" />
+          <SegmentURL mediaRange="309574-330419" indexRange="309574-309617" />
+          <SegmentURL mediaRange="330420-350912" indexRange="330420-330463" />
+          <SegmentURL mediaRange="350913-371796" indexRange="350913-350956" />
+          <SegmentURL mediaRange="371797-392412" indexRange="371797-371840" />
+          <SegmentURL mediaRange="392413-412991" indexRange="392413-392456" />
+          <SegmentURL mediaRange="412992-433601" indexRange="412992-413035" />
+          <SegmentURL mediaRange="433602-454410" indexRange="433602-433645" />
+          <SegmentURL mediaRange="454411-475166" indexRange="454411-454454" />
+          <SegmentURL mediaRange="475167-496227" indexRange="475167-475210" />
+          <SegmentURL mediaRange="496228-516632" indexRange="496228-496271" />
+          <SegmentURL mediaRange="516633-537322" indexRange="516633-516676" />
+          <SegmentURL mediaRange="537323-557951" indexRange="537323-537366" />
+          <SegmentURL mediaRange="557952-578733" indexRange="557952-557995" />
+          <SegmentURL mediaRange="578734-599414" indexRange="578734-578777" />
+          <SegmentURL mediaRange="599415-620237" indexRange="599415-599458" />
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

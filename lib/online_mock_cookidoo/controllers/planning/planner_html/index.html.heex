@@ -1,0 +1,63 @@
+<h1>PLANNER</h1>
+<table>
+  <tr>
+    <td colspan="2">System language is: <span id="language"></span></td>
+  </tr>
+  <tr>
+    <td>
+      <li>
+        <a href={"com.vorwerk.cookidoo://video?src=" <> static_url(OnlineMockCloud.Endpoint, "/stream/singleSegmentStream/singleSegmentStream.mpd")}>
+          Video Stream
+        </a>
+      </li>
+    </td>
+    <td>
+      <li>
+        <a href={url(~p"/customer-recipes/recipes-list")}>Customer Recipes</a>
+      </li>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <li>
+        <a href="com.vorwerk.cookidoo://navigation/search?query=dummy">Search</a>
+      </li>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <li>
+        <a href="data_usage.html">Data Usage</a>
+      </li>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <li>
+        <a href="privacy_policy.html">Privacy Policy</a>
+      </li>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <li>
+        <a href="com.vorwerk.cookidoo://home/explore?lang=en">Explore</a>
+      </li>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <li>
+        <a href="planner.html">Planner</a>
+      </li>
+    </td>
+    <td></td>
+  </tr>
+</table>
+<script type="text/javascript">
+  document.getElementById("language").innerHTML = navigator.language;
+</script>
